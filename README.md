@@ -37,7 +37,7 @@ sudo systemctl status apache2
 ```
 
 ```bash
-sudo /var/www/html/
+cd /var/www/html/
 ```
 
 ### 4. Test the Application:
