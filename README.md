@@ -27,8 +27,13 @@ sudo apt install apache2 -y
 ### 3. Start the Apache2 service and set it to launch on boot:
 
 ```bash
-sudo systemctl start httpd
-sudo systemctl enable httpd
+sudo systemctl start apache2
+```
+```bash
+sudo systemctl enable apache2
+```
+```bash
+sudo systemctl status apache2
 ```
 
 ```bash
