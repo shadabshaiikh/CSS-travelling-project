@@ -21,7 +21,7 @@ sudo apt-get update
 
 #### git clone on your instance.
 ```bash
-https://github.com/shadabshaiikh/welcome-traveler.git
+git clone https://github.com/shadabshaiikh/welcome-traveler.git
 ```
 
 ### 2. Install Apache2 on the EC2 Instance:
