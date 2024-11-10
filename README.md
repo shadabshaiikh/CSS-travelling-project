@@ -18,6 +18,12 @@ Configure security settings to allow HTTP (port 80) for web access and SSH (port
 ```bash
 sudo apt-get update
 ```
+
+#### git clone on your instance.
+```bash
+https://github.com/shadabshaiikh/welcome-traveler.git
+```
+
 ### 2. Install Apache2 on the EC2 Instance:
 
 ```bash
