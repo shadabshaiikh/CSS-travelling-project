@@ -17,7 +17,7 @@ spec:
           image: shadabsk/travelling-app:latest # Image that will be used to containers in the cluster
           imagePullPolicy: Always
           ports:
-            - containerPort: 8080 # The port that the container is running on in the cluster
+            - containerPort: 8000 # The port that the container is running on in the cluster
 
 
 ---
@@ -25,12 +25,12 @@ spec:
 apiVersion: v1 # Kubernetes API version
 kind: Service # Kubernetes resource kind we are creating
 metadata: # Metadata of the resource kind we are creating
-  name: boardgame-ssvc
+  name: travelling-app-ssvc
 spec:
   selector:
     app: travelling-app
   ports:
     - protocol: "TCP"
       port: 80
-      targetPort: 8080 
+      targetPort: 8000 
   type: LoadBalancer # type of the service.
